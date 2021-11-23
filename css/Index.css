@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/Banner_principal_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hr{
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    margin: auto;
+
+}
+
+ body h1{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.content{
+    width: 100%;
+    height: 220vh;
+    margin: auto;
+}
+
+
+.Text {
+    width: 80%;
+    position: absolute;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    top: 40em;
+    left: 10%;
+}
+
+.Text .titulo_1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #f00;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.Text p{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    
+}
+
+.Contenido_text{
+    width: 95%;
+    position: absolute;
+    display: block;
+    top: 60em;
+    left: 2%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.mision {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.mision h2{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 40px;
+
+}
+
+.mision p{
+    font-size: 24px;
+    padding: 15px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.vision {
+    width: 50%;
+    float: right;
+    padding: 5px;
+}
+
+.vision h2{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.vision p{
+    font-size: 24px;
+    padding: 15px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.Real a {
+    width: 200px;
+    height: 300px;
+    display: block;
+    position: absolute;
+    left: 22%;
+    top: 10%;
+    opacity: 0;
+}
+
+.Remax a {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    right: 23%;
+    top: 15%;
+    opacity: 0;
+}
+
+.contenido_2 {
+    display: none;
+}
+
+.Otoch {
+    display: none;
+}
+
+.Peninsula {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url(/img/Banner.png);
+        background-size: 400px 700px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .contenido_2 {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 20em;
+        left: 10%;
+        color: #fff;
+    }
+    .contenido_2 h1 {
+        font-family: 'Berlin Sans FB Demi';
+        letter-spacing: 1mm;
+        text-align: center;
+    }
+    .logos {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        height: auto;
+    }
+    .Otoch {
+        width: 50%;
+        display: block;
+        margin: auto;
+        float: right;
+        top: 15%;
+    }
+    .Otoch img {
+        width: 100%;
+    }
+    .Peninsula {
+        width: 50%;
+        display: block;
+        margin: auto;
+        text-align: center;
+        float: left;
+        top: 15%;
+    }
+    .Peninsula h1 {
+        font-family: 'Dancing Script';
+        font-size: 1.5em;
+        font-weight: lighter;
+        color: #fff;
+    }
+    .Peninsula p {
+        font-size: .6em;
+        font-weight: lighter;
+        color: #fff;
+    }
+    .Peninsula img {
+        width: 50%;
+    }
+}
